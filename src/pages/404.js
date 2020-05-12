@@ -6,7 +6,7 @@ const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" keywords={[`gatsby`, `404`, `react`]} />
     <div className="container not-found">
-      <h1>NOT FOUND</h1>
+      <h1>NOT FOUND!</h1>
       <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
     </div>
   </Layout>
