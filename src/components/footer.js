@@ -12,10 +12,10 @@ class Footer extends Component {
                 <div className="menu-main-container">
                   <ul id="menu-main" className="menu">
                     <li>
-                      <Link to="/blogs">Blogs</Link>
+                      <Link to="/blogs">News</Link>
                     </li>
                     <li>
-                      <Link to="/store">Store</Link>
+                      <Link to="/store">Merch</Link>
                     </li>
                     <li>
                       <Link to="/contact-us">Contact</Link>
@@ -29,7 +29,8 @@ class Footer extends Component {
             </div>
             <div className="footer-bottom social-right-menu ">
               <div className="site-info">
-                ©2019 Oneshopper. All rights reserved.
+                © Copyright {new Date().getFullYear()} All rights reserved.
+                Crafted by <a href="https://vincegrilli.dev/">Vince Grilli</a>.
               </div>
             </div>
           </div>
