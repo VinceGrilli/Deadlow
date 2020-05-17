@@ -40,7 +40,7 @@ const Header = ({ siteTitle }) => (
                   className="nav-link"
                   href="https://revilers131.bandcamp.com/"
                 >
-                  Music
+                  Bandcamp
                 </a>
               </li>
               <li className="nav-item">
