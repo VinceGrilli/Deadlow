@@ -750,14 +750,14 @@ pre tt:after {
 }
 
 .snipcart-add-item {
-  border: 1px solid #ef3d56;
+  border: 1px solid #991f23;
   padding: 10px 15px;
   display: inline-block;
   font-size: 12px;
   color: #fff !important;
   border-radius: 5px;
   font-weight: 600;
-  background: #ef3d56;
+  background: #991f23;
   text-decoration: none !important;
   text-transform: uppercase;
 }
@@ -843,7 +843,7 @@ footer.site-footer * {
 
 .no-image {
   height: 200px;
-  background: #ef3d5675;
+  background: #991f2375;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -873,7 +873,7 @@ footer.site-footer * {
 }
 
 .snip-layout .snip-header__total * {
-  color: #ef3d56 !important;
+  color: #991f23 !important;
   text-transform: capitalize !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
@@ -893,7 +893,7 @@ footer.site-footer * {
 }
 
 .snip-layout .snip-actions a.snip-btn:hover {
-  background: #ef3d56 !important;
+  background: #991f23 !important;
 }
 
 .product-details .gatsby-image-wrapper {
@@ -1055,7 +1055,7 @@ span.price {
 }
 
 .site-Banner .Banner-details a {
-  background: #ef3d56;
+  background: #991f23;
   color: #fff;
   text-decoration: none;
   padding: 12px 25px;
@@ -1091,7 +1091,7 @@ span.price {
   width: 100%;
   left: 0;
   right: 0;
-  background: #ef3d56;
+  background: #991f23;
   top: 100%;
 }
 
@@ -1142,7 +1142,7 @@ span.price {
 }
 
 .countdown-section .countdown-inner a {
-  background: #ef3d56;
+  background: #991f23;
   color: #fff;
   text-decoration: none;
   padding: 12px 25px;
@@ -1158,7 +1158,7 @@ span.price {
 }
 
 .countdown-section .countdown-inner ul.react-countdown li {
-  background: #ef3d5694;
+  background: #991f2394;
   padding: 20px 0;
   margin: 0 10px;
   width: 100px;
@@ -1408,7 +1408,7 @@ div#disqus_thread {
   box-sizing: border-box;
   text-shadow: none;
   color: #333;
-  border-top: 4px solid #ef3d56;
+  border-top: 4px solid #991f23;
 }
 
 .countdown-section .countdown-inner .date strong i {

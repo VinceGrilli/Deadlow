@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Banner from "../components/banner"
 import LatestBlogs from "../components/latestBlog"
-import StarRatingComponent from "react-star-rating-component"
 import { graphql } from "gatsby"
 
 const IndexPost = ({ data }) => {
@@ -28,11 +27,7 @@ const IndexPost = ({ data }) => {
                 <h2>
                   <Link to={`/${items.node.slug}`}>{items.node.name}</Link>
                 </h2>
-                <StarRatingComponent
-                  name="rate1"
-                  starCount={5}
-                  value={items.node.rating}
-                />
+
                 <p>{items.node.details.childMarkdownRemark.excerpt}</p>
                 <div className="row">
                   <div className="col-sm-4 align-self-center">
@@ -68,15 +63,12 @@ const IndexPost = ({ data }) => {
 
 const IndexPage = data => (
   <Layout>
-    <SEO
-      title="Home"
-      keywords={[`gatsby`, `oneshopper`, `react`, `Ecommerce`]}
-    />
+    <SEO title="Home" keywords={[`deadlow`, `cape cod`, `react`, `band`]} />
     <Banner BannerData={data.data.allContentfulHeaderBanner.edges} />
     <LatestBlogs data={data.data.allContentfulBlogs} />
     <div className="container">
       <div className="text-center">
-        <h2 className="with-underline">Latest Items</h2>
+        <h2 className="with-underline">Latest Merch</h2>
       </div>
       <IndexPost data={data}></IndexPost>
     </div>

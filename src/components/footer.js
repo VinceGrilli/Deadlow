@@ -12,16 +12,19 @@ class Footer extends Component {
                 <div className="menu-main-container">
                   <ul id="menu-main" className="menu">
                     <li>
+                      <Link to="/">Home</Link>
+                    </li>
+                    <li>
                       <Link to="/blogs">News</Link>
                     </li>
                     <li>
                       <Link to="/store">Merch</Link>
                     </li>
                     <li>
-                      <Link to="/contact-us">Contact</Link>
+                      <a href="https://revilers131.bandcamp.com/">Music</a>
                     </li>
                     <li>
-                      <Link to="/copyright">Copyright</Link>
+                      <Link to="/contact-us">Contact</Link>
                     </li>
                   </ul>
                 </div>

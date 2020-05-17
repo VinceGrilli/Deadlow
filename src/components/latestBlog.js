@@ -6,7 +6,7 @@ const LatestBlogs = ({ data }) => {
   return (
     <div className="container">
       <div className="text-center">
-        <h2 className="with-underline">Latest Blogs</h2>
+        <h2 className="with-underline">Latest News</h2>
       </div>
       <ul className="latest-blog">
         {data.edges.map(items => (
