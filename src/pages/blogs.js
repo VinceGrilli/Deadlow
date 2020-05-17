@@ -25,7 +25,7 @@ const BlogsPost = ({ data }) => {
 
   return (
     <>
-      <ul className="blog-list" onScroll={handleScroll()}>
+      <ul className="blog-list" onScroll={handleScroll}>
         {data.data.allContentfulBlogs.edges
           .slice(0, useNoOfPosts)
           .map(items => (
