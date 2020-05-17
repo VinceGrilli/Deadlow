@@ -5,9 +5,9 @@ const { spaceId, accessToken, snipcart } = process.env
 
 module.exports = {
   siteMetadata: {
-    title: `OneShopper`,
-    description: `E-Commerce site with Gatsby and React`,
-    author: `@rohitguptab`,
+    title: `Deadlow`,
+    description: `Official band site`,
+    author: `@vincegrilli`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,13 +24,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `OneShopper`,
-        short_name: `starter`,
+        name: `Deadlow`,
+        short_name: `Deadlow`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/oneshopper-logo.png`,
+        icon: `src/images/deadlow-logo.png`,
       },
     },
     {
