@@ -751,7 +751,7 @@ pre tt:after {
 
 .snipcart-add-item {
   border: 1px solid #991f23;
-  padding: 10px 15px;
+  padding: 10px 10px;
   display: inline-block;
   font-size: 12px;
   color: #fff !important;
@@ -1639,6 +1639,9 @@ footer.site-footer ul {
     font-size: 15px;
   }
 
+  .product-main .details_List .details_inner .text-right.align-self-center {
+    text-align: left !important;
+  }
 
   .countdown-section .countdown-inner h2 {
     font-size: 25px;

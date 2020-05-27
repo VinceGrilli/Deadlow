@@ -14,7 +14,7 @@ let settings = {
 
 const Banner = ({ BannerData }) => {
   return (
-    <div className="container-fluid mx-0">
+    <div className="container-fluid mx-0 px-0">
       <div className="slider-section mt-0 ">
         <Slider {...settings}>
           {BannerData.map((items, i) => (

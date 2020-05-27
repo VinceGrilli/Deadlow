@@ -46,10 +46,10 @@ const IndexPost = ({ data }) => {
                   </h2>
                   <p>{items.node.details.childMarkdownRemark.excerpt}</p>
                   <div className="row justify-content-between">
-                    <div className="col-sm-4 align-self-left">
+                    <div className="col-5 align-self-left">
                       <span className="price">${items.node.price}</span>
                     </div>
-                    <div className="col-sm-4 align-self-right">
+                    <div className="col-7 text-right align-self-right">
                       <a
                         href="#"
                         className="Product snipcart-add-item"
