@@ -14,22 +14,24 @@ let settings = {
 
 const Banner = ({ BannerData }) => {
   return (
-    <div className="slider-section min-vw-100  mt-0">
-      <Slider {...settings}>
-        {BannerData.map((items, i) => (
-          <div key={i} className="item">
-            <div className="site-Banner">
-              <Img sizes={items.node.image.fluid} />
-              <div className="Banner-details">
-                <div>
-                  <span className="sub-title">{items.node.subHeading}</span>
-                  <h1>{items.node.title}</h1>
+    <div className="container-fluid mx-0">
+      <div className="slider-section mt-0 ">
+        <Slider {...settings}>
+          {BannerData.map((items, i) => (
+            <div key={i} className="item">
+              <div className="site-Banner">
+                <Img sizes={items.node.image.fluid} />
+                <div className="Banner-details">
+                  <div>
+                    <span className="sub-title">{items.node.subHeading}</span>
+                    <h1>{items.node.title}</h1>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        ))}
-      </Slider>
+          ))}
+        </Slider>
+      </div>
     </div>
   )
 }

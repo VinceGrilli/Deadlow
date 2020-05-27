@@ -45,11 +45,11 @@ const IndexPost = ({ data }) => {
                     <Link to={`/${items.node.slug}`}>{items.node.name}</Link>
                   </h2>
                   <p>{items.node.details.childMarkdownRemark.excerpt}</p>
-                  <div className="row ">
-                    <div className="col-sm-6 align-left">
+                  <div className="row justify-content-between">
+                    <div className="col-sm-4 align-self-left">
                       <span className="price">${items.node.price}</span>
                     </div>
-                    <div className="col-sm-6 text-right align-self-right">
+                    <div className="col-sm-4 align-self-right">
                       <a
                         href="#"
                         className="Product snipcart-add-item"
