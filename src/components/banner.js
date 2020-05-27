@@ -1,9 +1,8 @@
 import React from "react"
 import Slider from "react-slick"
 import Img from "gatsby-image"
-import { Link } from "gatsby"
 
-var settings = {
+let settings = {
   dots: true,
   speed: 500,
   infinite: true,
@@ -15,7 +14,7 @@ var settings = {
 
 const Banner = ({ BannerData }) => {
   return (
-    <div className="slider-section">
+    <div className="slider-section min-vw-100  mt-0">
       <Slider {...settings}>
         {BannerData.map((items, i) => (
           <div key={i} className="item">

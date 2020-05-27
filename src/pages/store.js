@@ -40,16 +40,16 @@ const IndexPost = ({ data }) => {
                   <Img sizes={items.node.image.fixed} />
                 )}
 
-                <div className="details_inner">
+                <div className="details_inner container-fluid">
                   <h2>
                     <Link to={`/${items.node.slug}`}>{items.node.name}</Link>
                   </h2>
                   <p>{items.node.details.childMarkdownRemark.excerpt}</p>
-                  <div className="row">
-                    <div className="col-sm-4 align-self-center">
+                  <div className="row ">
+                    <div className="col-sm-6 align-left">
                       <span className="price">${items.node.price}</span>
                     </div>
-                    <div className="col-sm-8 text-right align-self-center">
+                    <div className="col-sm-6 text-right align-self-right">
                       <a
                         href="#"
                         className="Product snipcart-add-item"
