@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="container">
           {/* To make form work, use your own formspree credentials in action="" */}
           <form
-            action="https://formspree.io/rohitguptab33@gmail.com"
+            action="https://formspree.io/xoqkywgj"
             method="POST"
             name="contact"
           >
