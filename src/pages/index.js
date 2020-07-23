@@ -63,7 +63,10 @@ const IndexPost = ({ data }) => {
 
 const IndexPage = data => (
   <Layout>
-    <SEO title="Home" keywords={[`deadlow`, `cape cod`, `react`, `band`]} />
+    <SEO
+      title="Home"
+      keywords={[`deadlow`, `cape cod`, `react`, `band`, `punk`]}
+    />
     <Banner BannerData={data.data.allContentfulHeaderBanner.edges} />
     <LatestBlogs data={data.data.allContentfulBlogs} />
     <div className="container">
