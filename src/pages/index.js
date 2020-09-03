@@ -69,12 +69,6 @@ const IndexPage = data => (
     />
     <Banner BannerData={data.data.allContentfulHeaderBanner.edges} />
     <LatestBlogs data={data.data.allContentfulBlogs} />
-    <div className="container">
-      <div className="text-center">
-        <h2 className="with-underline">Latest Merch</h2>
-      </div>
-      <IndexPost data={data}></IndexPost>
-    </div>
   </Layout>
 )
 

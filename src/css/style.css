@@ -582,13 +582,13 @@ ul li {
   padding-left: 0;
 }
 
-li>ol {
+li > ol {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
 }
 
-li>ul {
+li > ul {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
@@ -606,7 +606,7 @@ p *:last-child {
   margin-bottom: 0;
 }
 
-li>p {
+li > p {
   margin-bottom: calc(1.45rem / 2);
 }
 
@@ -762,7 +762,8 @@ pre tt:after {
   text-transform: uppercase;
 }
 
-.product-details {}
+.product-details {
+}
 
 .product-details .gatsby-image-wrapper {
   height: 500px;
@@ -1064,7 +1065,7 @@ span.price {
   letter-spacing: 1px;
 }
 
-.site-Banner .Banner-details>div {
+.site-Banner .Banner-details > div {
   max-width: 70%;
 }
 
@@ -1122,7 +1123,8 @@ span.price {
   text-shadow: 2px 2px 9px #000;
 }
 
-.countdown-section {}
+.countdown-section {
+}
 
 .countdown-section:before {
   content: "";
@@ -1324,7 +1326,8 @@ ul.latest-blog li .inner a {
   margin: 40px 0;
 }
 
-.Contact-us form {}
+.Contact-us form {
+}
 
 .Contact-us form input {
   width: 100%;
@@ -1340,11 +1343,11 @@ ul.latest-blog li .inner a {
   width: 100%;
 }
 
-.Contact-us form>div {
+.Contact-us form > div {
   margin-bottom: 30px;
 }
 
-.Contact-us form>div button {
+.Contact-us form > div button {
   width: 120px;
   height: 50px;
   background: #333;

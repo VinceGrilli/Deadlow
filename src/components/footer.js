@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import logo from "../images/btc-logo.png"
+
 const Footer = () => {
   return (
     <footer className="site-footer">
@@ -17,10 +19,10 @@ const Footer = () => {
                     <Link to="/blogs">News</Link>
                   </li>
                   <li>
-                    <Link to="/store">Merch</Link>
+                    <a href="https://www.audioepidemic.net/">Merch</a>
                   </li>
                   <li>
-                    <a href="https://revilers131.bandcamp.com/">Bandcamp</a>
+                    <a href="https://deadlowpunk.bandcamp.com/">Bandcamp</a>
                   </li>
                   <li>
                     <Link to="/contact-us">Contact</Link>
@@ -31,8 +33,18 @@ const Footer = () => {
           </div>
           <div className="footer-bottom social-right-menu ">
             <div className="site-info">
-              © Copyright {new Date().getFullYear()} All rights reserved.
-              Crafted by <a href="https://vincegrilli.dev/">Vince Grilli</a>.
+              © Copyright {new Date().getFullYear()} All rights reserved. Site
+              crafted by{" "}
+              <a href="https://www.builttocode.dev">
+                <img
+                  style={{
+                    maxWidth: `6rem`,
+                    margin: 0,
+                  }}
+                  src={logo}
+                  alt="Built to Code"
+                />
+              </a>
             </div>
           </div>
         </div>

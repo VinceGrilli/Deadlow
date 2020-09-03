@@ -1,7 +1,7 @@
 var dotenv = require("dotenv")
 dotenv.config()
 
-const { spaceId, accessToken, snipcart } = process.env
+const { spaceId, accessToken } = process.env
 
 module.exports = {
   siteMetadata: {
@@ -38,14 +38,6 @@ module.exports = {
       options: {
         spaceId: "6q9vs0ulnu1f",
         accessToken: "WWUSQ5gv6mmDVeIk1fObJUwATgOB0y6HkMI8xgbayhM",
-      },
-    },
-    {
-      resolve: "gatsby-plugin-snipcartv3",
-      options: {
-        apiKey:
-          "ZmIxMDlmMWQtNzkzOC00Zjk0LTk4OTktZjAxNjhhOWRlYWM2NjM3MzExMzUzMjc0OTI1MDY1",
-        autopop: true,
       },
     },
   ],

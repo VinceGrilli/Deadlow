@@ -31,14 +31,14 @@ const Header = ({ siteTitle }) => (
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/store">
+                <a className="nav-link" href="https://www.audioepidemic.net/">
                   Merch
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://revilers131.bandcamp.com/"
+                  href="https://deadlowpunk.bandcamp.com/"
                 >
                   Bandcamp
                 </a>
@@ -49,23 +49,6 @@ const Header = ({ siteTitle }) => (
                 </Link>
               </li>
             </ul>
-            <div className="header-cart">
-              <Link
-                className="Header__summary snipcart-summary snipcart-checkout"
-                to="#"
-              >
-                <i className="fas fa-cart-plus"></i>
-              </Link>
-              {/* <button class="snipcart-add-item"
-                data-item-id="starry-night"
-                data-item-price="79.99"
-                data-item-url="/paintings/starry-night"
-                data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
-                data-item-image="/assets/images/starry-night.jpg"
-                data-item-name="The Starry Night">
-                Add to cart
-              </button> */}
-            </div>
           </nav>
         </div>
       </div>
